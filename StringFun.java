@@ -1,9 +1,17 @@
-
+/**
+* @author: Ayisaihaier Kaisaier
+* @version 1.0
+* Description: Calling 9 string method
+* two Extra method are s.toUppercase(): it makes all the index uppercase & s.toLowercase(): it makes all the index lowercase.
+*/
 
 public class StringFun 
 {
 
-
+	/**
+	 *
+	 *@param args unused
+	 */
 	public static void main(String[] args)
 	   {
 		 String s = "We will be strong in the future";
@@ -11,7 +19,7 @@ public class StringFun
 	        String subString = "strong";
             
 	        /* s.length() */
-	        System.out.print("the word We will be strong in the future has "+s.length()+" letters");
+	        System.out.print("the word We will be strong in the future has "+s.length()+" index");
 	        /* s.equals(otherString)   */
 	        if (s.equals(otherString)){
 	        	System.out.println("The 2 string are exactly the same");
